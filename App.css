@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+* {
+    font-family:Lato;
+    box-sizing:border-box;
+}
+
+body 
+{
+    padding-top:75;
+    color:white;
+    margin:0 auto;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#06dcbf+0,02885d+100 */
+background: #06dcbf; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #06dcbf 0%, #02885d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #06dcbf 0%,#02885d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #06dcbf 0%,#02885d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06dcbf', endColorstr='#02885d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+h1 
+{
+    font-size:20px;
+    text-align: center;
+    margin:0 auto;
+
+}
+
+.container 
+{
+    background: rgb(0, 0, 0);
+    margin:0 auto;
+    text-align: center;
+    width: 800px;
+    height:500px;
+    -webkit-box-shadow: 0px 10px 2px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 2px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 2px -5px rgba(0,0,0,0.75);
+}
+
+.image 
+{
+    padding-top:90px;
+    background: url("./img/landscape.jpg");
+    background-size:cover;
+    background-position-y: -100px;
+    height: 500px;
+    width: 50%;
+    max-width: 400px;
+    float:left;
+}
+
+.image h1 
+{
+  font-size: 40px;
+}
+
+#root 
+{
+    padding-top:80;
+    background-color:rgb(1, 34, 49);
+    height:500px;
+    width:50%;
+    max-width: 400px;
+    float:right;
+}
+#root h1 
+{
+    margin-bottom:30px;
+}
+#root  h1
+{
+    font-size:18px;
+    margin-bottom:40px;
+    font-weight: 100;
+    text-align:center;
+    width:60%;
+}
+
+input 
+{
+    background:none;
+    border:none;
+    border-bottom: solid rgb(0, 209, 224) 2px;
+    border-width: 70%;
+    margin-right:10px;
+    color:white;
+    padding:2px;
+    outline:none;
+    margin-bottom:50px;
+}
+input:-webkit-autofill 
+{
+    -webkit-box-shadow: inset 0 0 0px 9999px white;
+
+    
+}
+
+#root  p 
+{
+    margin-bottom:0px;
+}
+#root button 
+{
+    border:none;
+    margin-bottom:30px;
+    background: rgb(0, 79, 85);
+    color:white;
+    font-weight: 100;
+    padding:10px;
+    outline:none;
+}
+
+#root button:active 
+
+{
+    background: rgb(0, 209, 224);
+    color:#000;
+}
